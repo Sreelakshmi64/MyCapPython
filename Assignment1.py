@@ -1,11 +1,11 @@
-'''#Code 1
+#Code 1
 
 # Calculatig area of a circle
 import numpy    #imoprting the numpy library in python to call 'numpy.pi' function
 r=float(input("Enter the radius of the circle"))    #getting the radius of the circle form the user
 units=input("Enter the unit of the radius(eg: m, cm, mm, ft, etc.,)")   #getting the unit of measurement from the user
 Area=(numpy.pi)*(r**2)    #calculating the area of the circle with the input radius
-print("The area of the circle with input radius,'r='",r,units,"is",Area,units+"^2")    #printing the area'''
+print("The area of the circle with input radius,'r='",r,units,"is",Area,units+"^2")    #printing the area
 
 #Code 2
 
