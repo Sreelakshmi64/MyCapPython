@@ -20,3 +20,20 @@ else:    #if n>1, then this loop is excecuted
         f1=f2
         f2=f
     print(l)
+
+#Code 2
+
+#Printing positive numbers from a list
+n=int(input("Enter the number of elements in the list"))    #getting the number of elements from the user
+
+l=[]    #creating an empty list
+
+for i in range(n):
+    x=int(input("Enter the list element:"))
+    l.append(x)    #creating the list
+
+positive=[]
+for i in range(n):
+    if l[i]>0:
+        positive.append(l[i])
+print(positive)
